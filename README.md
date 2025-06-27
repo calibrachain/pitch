@@ -69,3 +69,14 @@ The onchain_address within the certificate's metadata is designed to be chain-ag
 We create an unbroken, provable, and cross-chain path from a working tool on the factory floor all the way up to the international source of metrological truth. This is achieved by leveraging protocols like Chainlink's CCIP (Cross-Chain Interoperability Protocol) and our standardized metadata format, ensuring that trust has no borders.
 
 We aren't just putting certificates on a blockchain; we are building the federated, global network for verifiable trust.
+
+### Challenges I ran into
+
+Our biggest hurdle was bridging the on-chain world with real-world, authoritative data. National Metrology Institutes (NMIs) are foundational to our trust model, but they often lack public, standardized APIs for validating laboratory accreditation in real-time. To overcome this for our MVP, we engineered our own mock NMI API. This allowed us to fully build and demonstrate the end-to-end workflow, proving how our smart contract can seamlessly interact with Chainlink Functions to query external data, validate credentials, and conditionally mint a certificate based on a real-world response.
+
+### Avalanche Track
+
+
+*How does this project fit within the track?*
+
+We chose the Avalanche network as the foundation for our solution due to its unique combination of scalability, interoperability, and low cost, which perfectly aligns with our vision. Avalanche's Subnet architecture is the key differentiator, allowing metrology institutes like INMETRO or NIST to operate their own sovereign, high-performance blockchains in the future, maintaining local data governance while connecting to a global network. For our users, this translates into transactions with near-instant finality and consistently low fees, making the issuance and verification of digital certificates economically viable at scale. Furthermore, its full EVM compatibility allowed us to leverage the robust and familiar tooling ecosystem of Ethereum and Chainlink, accelerating development and ensuring a secure foundation for the project.
