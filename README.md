@@ -1,10 +1,10 @@
 ### *The Problem: A Crisis of Trust in a Multi-Billion Dollar Market*
 
-The calibration of industrial and medical equipment isn't just a technical task—it's the foundation of safety and quality in a market projected to exceed *$8 billion globally*. From airplane altimeters to hospital MRI machines, precise calibration saves lives and ensures product quality.
+The calibration of industrial and medical equipment isn't just a technical task—it's the foundation of safety and quality in a market projected to exceed *$8 billion globally*. From airplane altimeters to hospital MRI machines, precise calibration saves lives and ensures the quality of products.
 
 Yet, the proof of this critical process—the calibration certificate—is dangerously outdated, relying on forgeable paper records or editable PDF and XML files. This creates three critical failures:
 
-* *Zero Integrity:* A fraudulent certificate is trivial to create. This silent form of fraud contributes to a global counterfeit market that costs the economy hundreds of billions of dollars annually, putting public safety and critical infrastructure at risk.
+* *Zero Integrity:* A fraudulent certificate is easily created. This silent form of fraud contributes to a global counterfeit market that costs the economy hundreds of billions of dollars annually, putting public safety and critical infrastructure at risk.
 * *Broken Traceability:* Manually tracing an instrument's calibration back to a national or international standard (the SI units) is a complex, opaque, and often impossible task for an auditor. The chain of trust is built on paper, not proof.
 * *Expensive, Static Audits:* For companies, audits are a nightmare of manual verification, costing industries millions in man-hours. For regulators like the FDA, inadequate calibration of equipment is a leading cause of non-compliance and warning letters, which can halt production and lead to costly recalls. A certificate provides no real-time guarantee; the issuing lab could lose its accreditation, but its previously issued certificates would still appear valid.
 
@@ -15,17 +15,17 @@ Calibra transforms calibration certificates from static, forgeable documents int
 This is what people can do with it, making their tasks radically easier and safer:
 
 * *For Auditors & Regulators:*
-    This is a game-changer. An auditor can *verify a certificate's authenticity, its full traceability, and the *current accreditation status of the issuing lab in real-time** with a single click. The audit process becomes a simple act of on-chain verification, not a forensic investigation.
+    This is a game-changer. An auditor can *verify a certificate's authenticity, its full traceability, and the *current accreditation status of the issuing lab in real-time** with a single click. The audit process becomes a straightforward act of on-chain verification, rather than a forensic investigation.
 
 * *For Accredited Laboratories:*
-    Secure their reputation with fraud-proof certificates that enhance their credibility. They gain a competitive edge by offering a superior, verifiable digital product in a new digital marketplace.
+    Secure their reputation with fraud-proof certificates that enhance their credibility and trust. They gain a competitive edge by offering a superior, verifiable digital product in a new digital marketplace.
 
 * *For Industrial Clients & Hospitals:*
     Instantly access and present indisputable, tamper-proof proof of compliance. They can *slash audit preparation time from weeks to minutes* and completely eliminate the risk of using equipment with a fraudulent or invalid certificate.
 
 ![image](https://github.com/user-attachments/assets/b469aabf-ec10-4d08-8e49-f57bc02dd835)
 
-#### *Why Blockchain is the Only Solution*
+#### *Why Blockchain is the Best Solution*
 
 This problem is fundamentally about trust, which is precisely what blockchain is built to solve.
 
@@ -50,9 +50,9 @@ This is how it works:
 
 Imagine the BIPM, at the very top of the pyramid, issuing its foundational reference certificates on a highly secure Layer 1 blockchain, like Ethereum or its own blockchain. This is the ultimate anchor of digital trust.
 
-Now, each National Standard (NMI) can operate its own high-throughput, low-cost Layer 2 network.
+Now, each National Standard (NMI) can operate its high-throughput, low-cost Layer 2 network.
 
-INMETRO (Brazil) can have its own local L2.
+INMETRO (Brazil) can have its local L2.
 
 NIST (USA) and PTB (Germany) can have theirs.
 
@@ -79,4 +79,4 @@ Our biggest hurdle was bridging the on-chain world with real-world, authoritativ
 
 *How does this project fit within the track?*
 
-We chose the Avalanche network as the foundation for our solution due to its unique combination of scalability, interoperability, and low cost, which perfectly aligns with our vision. Avalanche's Subnet architecture is the key differentiator, allowing metrology institutes like INMETRO or NIST to operate their own sovereign, high-performance blockchains in the future, maintaining local data governance while connecting to a global network. For our users, this translates into transactions with near-instant finality and consistently low fees, making the issuance and verification of digital certificates economically viable at scale. Furthermore, its full EVM compatibility allowed us to leverage the robust and familiar tooling ecosystem of Ethereum and Chainlink, accelerating development and ensuring a secure foundation for the project.
+We chose the Avalanche network as the foundation for our solution due to its unique combination of scalability, interoperability, and low cost, which perfectly aligns with our vision. Avalanche's Subnet architecture is the key differentiator, enabling metrology institutes like INMETRO or NIST to operate their own sovereign, high-performance blockchains in the future, while maintaining local data governance and connecting to a global network. For our users, this translates into transactions with near-instant finality and consistently low fees, making the issuance and verification of digital certificates economically viable at scale. Furthermore, its full EVM compatibility allowed us to leverage the robust and familiar tooling ecosystem of Ethereum and Chainlink, accelerating development and ensuring a secure foundation for the project.
