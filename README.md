@@ -33,7 +33,7 @@ This problem is fundamentally about trust, which is precisely what blockchain is
 
 2.  *Transparent Traceability:* The entire chain of calibration, from a client's instrument to the lab's reference standard, can be linked on-chain. Each certificate can cryptographically point to the certificate of the instrument that calibrated it, creating a transparent and unbreakable audit trail.
 
-3.  *Real-Time Verification (via Chainlink): This is what makes our solution alive. A traditional certificate is a dead snapshot in time. Through *Chainlink oracles*, our digital certificates can connect to real-world data to continuously validate trust. We can query an official metrology institute's API to confirm a lab's accreditation is still valid today, not just on the day the certificate was issued. This moves the industry from point-in-time trust to continuous, automated verification.
+3.  *Real-Time Verification (via Chainlink):* This is what makes our solution alive. A traditional certificate is a dead snapshot in time. Through *Chainlink oracles*, our digital certificates can connect to real-world data to continuously validate trust. We can query an official metrology institute's API to confirm a lab's accreditation is still valid today, not just on the day the certificate was issued. This moves the industry from point-in-time trust to continuous, automated verification.
 
 ![image](https://github.com/user-attachments/assets/faf7e702-6389-468b-98d6-62a4e5757846)
 
